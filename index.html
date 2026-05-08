@@ -4,10 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Visualización de Datos Personales</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>Vuelos según mi data en Google</h1>
+  <div class="text-center py-5">
+    <h1 class="display-5 fw-bold">Analisis de Datos Personales</h1>
+    <h2 class="display-5 fw-bold">¿Qué vuelos hice según las búsquedas en Google?</h2>
+  </div>
   <!-- https://acozzi.github.io/tp_datos_personales -->
-  <div class="flourish-embed flourish-map" data-src="visualisation/28688883"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/28688883/thumbnail" width="100%" alt="map visualization" /></noscript></div>
+  <div class="flourish-embed flourish-map"
+  data-src="visualisation/28688883"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/28688883/thumbnail" width="100%" alt="map visualization" /></noscript></div>
+
+  <div class="text-center py-5">
+    <h2 class="display-5 fw-bold">¿En qué momento del día o del mes, mi cabeza busca escapar?</h2>
+  </div>
+  <div class="text-center">
+    <object type="image/svg+xml" data="./files/busquedas_por_dia.svg"></object>
+    <object type="image/svg+xml" data="./files/busquedas_por_hora.svg"></object>
+  </div>
+  
 </body>
 </html>
